@@ -1,0 +1,240 @@
+/* Fonts */
+@font-face {
+    font-family: Raleway;
+    src: url(assets/fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sail;
+    src: url(assets/fonts/Sail/Sail-Regular.ttf);
+}
+
+#main {
+
+}
+
+/* Reset HTML */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #faf9f7;
+}
+
+/* Header */
+#main {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header {
+    height: 100px;
+    background-color: #fff;
+}
+
+#logo {
+    position: absolute;
+    left: -4px;
+    top: 0px;
+    height: 100px;
+    z-index: 309;
+}   
+
+#logo .oganic {
+    font-size: 15.85px;
+    font-family: "Raleway";
+    color: rgb(196, 72, 96);
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 432px;
+    top: 29px;
+    z-index: 306;
+}
+
+#logo .arangi {
+    font-size: 40px;
+    font-family: "Sail";
+    color: rgb(196, 72, 96);
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 375px;
+    top: 34px;
+    z-index: 305;
+}
+
+#nav {
+    font-size: 17px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    left: 715px;
+    top: 55px;
+    z-index: 298;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav .nav-arrow-down {
+    font-size: 10px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #333333;
+    padding: 0 15px;
+}
+
+.new {
+    font-size: 10px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    left: 849px;
+    top: 35px;
+    z-index: 302;
+}
+
+.round-new {
+    background-color: rgb(196, 72, 96);
+    position: absolute;
+    border-radius:45%;
+    left: 838px;
+    top: 30px;
+    width: 46px;
+    height: 19px;
+    z-index: 301;
+}
+
+.func-user {
+    position: absolute;
+    left: 1311px;
+    top: 42px;
+    font-size: 25px;
+    opacity: 0.6;
+    z-index: 295;
+}
+
+.func-search {
+    position: absolute;
+    left: 1364px;
+    top: 42px;
+    font-size: 25px;
+    opacity: 0.6;
+    z-index: 292;
+}
+
+#cart {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 286;
+}
+
+#cart .func-cart {
+    position: absolute;
+    left: 1414px;
+    top: 40px;
+    font-size: 25px;
+    opacity: 0.6;
+    z-index: 283;
+}
+
+#cart .cart-number {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    left: 1440px;
+    top: 38px;
+    z-index: 285;
+}
+
+#cart .cart-round {
+    border-radius: 50%;
+    background-color: rgb(196, 72, 96);
+    position: absolute;
+    left: 1434px;
+    top: 37px;
+    width: 20px;
+    height: 20px;
+    z-index: 284;
+}
+
+#menu-icon {
+
+}
+
+#menu-icon .menu {
+    position: absolute;
+    left: 1519px;
+    top: 40px;
+    font-size: 28px;
+    opacity: 0.6;
+    z-index: 290;
+}
+
+#breadscrumb .img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    z-index: 268;
+}
+
+#breadscrumb .style-guide {
+    font-size: 45px;
+    font-family: "Raleway";
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    left: 375px;
+    top: 201px;
+    z-index: 273;
+}
+
+#breadscrumb .home {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(196, 72, 96);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    left: 377px;
+    top: 264px;
+    z-index: 272;
+}
+
+#breadscrumb .style-guide-2 {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    left: 440px;
+    top: 264px;
+    z-index: 271;
+}
+
+#content {
+
+}
+
+  
