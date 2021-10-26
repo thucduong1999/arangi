@@ -9,6 +9,11 @@
     src: url(assets/fonts/Sail/Sail-Regular.ttf);
 }
 
+@font-face {
+    font-family: Domine;
+    src: url(assets/fonts/Domine/static/Domine-Regular.ttf);
+}
+
 /* Reset HTML */
 * {
     padding: 0;
@@ -28,6 +33,10 @@ html {
 
 .pos-absolute {
     position: absolute;
+}
+
+.mb110 {
+    margin-bottom: 110px;
 }
 
 #main {
@@ -271,4 +280,137 @@ html {
     font-size: 15px;
     text-align: center;
     opacity: 0.7;
+}
+
+#content .button-lists {
+    width: 100%;
+    padding-top: 32px;
+    display: flex;
+    float: left;
+}
+
+#content .button-item {
+    width: 185px;
+    text-align: center;
+    float: left;
+}
+
+#content .button-box {
+    height: 55px;
+    font-size: 18px;
+    font-family: "Raleway";
+    border: 2px solid #c54960;
+    border-radius: 30px;
+    color: rgb(51, 51, 51);
+    height: 55px;
+    line-height: 55px;
+}
+
+#content .active:active {
+    cursor: pointer;
+    background-color: #c44860;
+    color: #fff;
+}
+
+#content .hover1:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#c44860, #f4ae7b);
+    color: #fff;
+    border: 2px solid;
+}
+
+#content .hover2:hover {
+    cursor: pointer;
+    background-color: #f4ae7b;
+    color: #fff;
+    border: 2px solid;
+}
+
+#content .text-round {
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(51, 51, 51);
+    height: 55px;
+    line-height: 55px;
+}
+
+#content .button-text {
+    font-size: 15px;
+    font-family: "Domine";
+    color: rgb(121, 116, 118);
+    margin-top: 20px;
+}
+
+#content .button-arrow {
+    font-size: 20px;
+    color: rgb(148, 142, 144);
+    margin: 19px 30px;
+}
+
+#content .box {
+    display: flex;
+    width: 120px;
+    height: 45px;
+    border: 2px solid #e5e5e5;
+    margin-bottom: 110px;
+}
+
+#content .box-item {
+    width: 33.3333%;
+    line-height: 45px;
+    color: #938f90;
+}
+
+#content .number {
+    font-size: 14px;
+    font-family: "Domine";
+    color: black;
+}
+
+#content .button-previous:hover,
+#content .button-next:hover {
+    cursor: pointer;
+}
+
+#content .button-previous:active,
+#content .button-next:active {
+    border-radius: 100%;
+    background-color: #f4ae7b;
+}
+
+#content .display-three {
+    width: 33.3333%;
+}
+
+#content .button-color {
+    background-color: #c44860;
+    color: #fff;
+}
+
+#content .size-40 {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    margin: 8px auto 0;
+    line-height: 40px;
+}
+
+#content .text-40 {
+    margin-top: 27px;
+}
+
+#content .size-32 {
+    width: 118px;
+    height: 32px;
+    font-size: 15px;
+    margin: 12px auto 0;
+    line-height: 32px;
+    float: left;
+}
+
+#content .text-32 {
+    width: 118px;
+    text-align: center;
+    margin-top: 31px;
+    float: left;
 }
