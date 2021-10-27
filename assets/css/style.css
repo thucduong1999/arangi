@@ -114,7 +114,7 @@ html {
 
 .round-new {
     background-color: rgb(196, 72, 96);
-    border-radius:45%;
+    border-radius: 20px;
     left: 838px;
     top: 30px;
     width: 46px;
@@ -177,8 +177,8 @@ html {
 }
 
 #breadscrumb .bg-img{
-    left: 0px;
     right: 0;
+    width: auto;
 }
 
 #breadscrumb .style-guide {
@@ -367,12 +367,12 @@ html {
     color: black;
 }
 
-#content .button-previous:hover,
+#content .button-prev:hover,
 #content .button-next:hover {
     cursor: pointer;
 }
 
-#content .button-previous:active,
+#content .button-prev:active,
 #content .button-next:active {
     border-radius: 100%;
     background-color: #f4ae7b;
@@ -413,4 +413,69 @@ html {
     text-align: center;
     margin-top: 31px;
     float: left;
+}
+
+#content .lists {
+    margin-top: 25px;
+}
+
+#content .lists-item {
+    width: 32.8%;
+    display: inline-block;
+}
+
+#content .lists-item li {
+    font-size: 15px;
+    font-family: "Domine";
+    color: rgb(121, 116, 118);
+    padding: 15px 0;
+}
+
+#content .style-none {
+    list-style-type: none;
+}
+
+.lists-item span li{
+    color: rgb(196, 72, 96) !important;
+}
+
+.content-section .alert-lists {
+    margin-top: 35px;
+    margin-bottom: 271px;
+}
+
+.alert-lists .alert-item {
+    display: inline;
+}
+
+.alert-lists li {
+    font-size: 14px;
+    font-family: "Domine";
+    color: rgb(255, 254, 254);
+    background-color: rgb(245, 46, 85);
+    width: 90%;
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 14px 0px;
+}
+
+.alert-item .item {
+    padding: 20px;
+}
+
+.alert-item .item-close {
+    float: right;
+    margin: -4px 18px 0;
+    background-color: #fff;
+    color: rgb(245, 46, 85);
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.alert-lists .box-color1 {
+    background-color: rgb(244, 183, 87);
+}
+
+.alert-lists .box-color2 {
+    background-color: rgb(180, 217, 50);
 }
